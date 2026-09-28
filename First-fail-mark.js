@@ -11,6 +11,6 @@ function firstFail(marks, passMark = 40) {
   return failIndex;
 }
 
-console.log(firstFail([65, 72, 38, 90]));
-console.log(firstFail([50, 60, 70, 50])); 
-console.log(firstFail([25, 35, 20, 30])); 
+console.log(firstFail([65, 72, 33, 80])); 
+console.log(firstFail([50, 60, 70], 40)); 
+console.log(firstFail([30, 90, 20], 40)); 
